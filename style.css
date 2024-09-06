@@ -1,0 +1,47 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Styling for the timer */
+#time {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling for the result */
+#result {
+    font-size: 24px;
+    color: #008000; /* Green text */
+    margin-top: 20px;
+}
+
+/* Styling for the textarea */
+textarea {
+    width: 80%;
+    height: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+/* Outline for correct or incorrect typing */
+textarea:focus {
+    outline: 2px solid #333;
+}
